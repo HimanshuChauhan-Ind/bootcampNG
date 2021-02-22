@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Biodata</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <h1>My Bio Data</h1>
+    <br>
+    <form action="" method="GET">
+        <fieldset>
+            <legend>Personal Info</legend>
+
+            <label for="firstname">FirstName</label>
+            <input type="text" id="firstname" placeholder="FirstName" required>
+
+            <label for="lastname">LastName</label>
+            <input type="text" id="lastname" placeholder="LastName" required>
+            <br><br>
+
+            <!--Gender selection-->
+            <label for="male">Male:</label>
+            <input type="radio" id="male" name="gender">
+            <label for="female">Female:</label>
+            <input type="radio" id="female" name="gender">
+            <label for="other">Other:</label>
+            <input type="radio" id="other" name="gender">
+            <br><br>
+
+            Date of Birth:
+            <input type="date">
+            <br><br>
+
+            Email:
+            <input type="email" placeholder="Enter Your Email" required>
+            <br><br>
+
+            Phone
+            <input type="tel" placeholder="+91" maxlength="10">
+            <br><br>
+
+            Height
+            <input type="number" placeholder="Enter Height in Feet">
+
+        </fieldset>
+        <br>
+        <!--Second Fieldset For education-->
+        <fieldset>
+            <legend>Education</legend>
+            School Name:
+            <input type="text" placeholder="School Name">
+            <br><br>
+
+            Class:
+            <input type="text" placeholder="Enter Class">
+            <br><br>
+
+            Stream:
+            <select>
+                <option>Stream</option>
+                <option>PCM</option>
+                <option>Commerce with Maths</option>
+                <option>Commerce without Maths</option>
+                <option>Humanities</option>
+                <option>PCB with Maths</option>
+                <option>PCB without Maths</option>
+            </select>
+            <br><br>
+            
+            Marksheet:
+            <input type="file">
+
+        </fieldset>
+
+        <!-- Submit Form-->
+        <input type="submit">
+    </form>
+    <br>
+    
+    
+    
+</body>
+</html>
