@@ -1,0 +1,38 @@
+
+
+html {
+     border: 10px;
+     background-color: lightyellow;
+
+}
+
+h1 {
+
+    font-size: 60px;
+    text-align: center;
+    background-color: hotpink;
+
+}
+
+dt {
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 10px;
+    background-color: rgb(19, 78, 204);
+    border: 1px solid black;
+    width: 20vw;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    
+}
+
+dd{
+    border-top: 1px solid grey;
+    width: 17vw;
+}
+
+dd::before{
+        content: "\1F4DE";
+}
